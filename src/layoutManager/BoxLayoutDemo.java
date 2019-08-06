@@ -29,6 +29,7 @@ public class BoxLayoutDemo {
         vBox.add(Box.createVerticalGlue());
         vBox.add(hBox3);
         jFrame.getContentPane().add(vBox, BorderLayout.CENTER);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jFrame.setVisible(true);
     }
 

@@ -10,7 +10,6 @@ public class GridBagLayoutDemo {
 
     public GridBagLayoutDemo() {
         JFrame jFrame = new JFrame("信息管理系统");
-        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setSize(300, 150);
         JPanel jPanel = new JPanel();
         jFrame.add(jPanel, BorderLayout.WEST);
@@ -43,6 +42,7 @@ public class GridBagLayoutDemo {
         add(jPanel, ok, gridBagConstraints, 0, 3, 1, 1);
         add(jPanel, cancel, gridBagConstraints, 2, 3, 1, 1);
         jFrame.setResizable(false);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jFrame.setVisible(true);
     }
 

@@ -38,6 +38,7 @@ public class CardLayoutDemo {
         controlJPanel.add(nextJButton);
         jFrame.add(controlJPanel, BorderLayout.SOUTH);
         jFrame.setVisible(true);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jFrame.pack();
         previousJButton.addActionListener(new ActionListener() {
             @Override

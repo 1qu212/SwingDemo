@@ -25,6 +25,7 @@ public class SpringLayoutDemo {
         springLayout.putConstraint(SpringLayout.WEST, jButton2, 5, SpringLayout.WEST, jPanel);
         springLayout.putConstraint(SpringLayout.EAST, jButton2, -5, SpringLayout.EAST, jPanel);
         jFrame.setResizable(false);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jFrame.setVisible(true);
     }
 
