@@ -1,3 +1,5 @@
+package layoutManager;
+
 import javax.swing.*;
 
 public class GroupLayoutDemo {
