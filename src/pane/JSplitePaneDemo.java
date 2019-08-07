@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class JSplitePaneDemo {
-    public JSplitePaneDemo() {
+    private JSplitePaneDemo() {
         JButton jButton0 = new JButton("确定");
         JButton jButton1 = new JButton("取消");
         JButton jButton2 = new JButton("优秀");

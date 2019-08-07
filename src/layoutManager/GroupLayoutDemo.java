@@ -3,7 +3,7 @@ package layoutManager;
 import javax.swing.*;
 
 public class GroupLayoutDemo {
-    public GroupLayoutDemo() {
+    private GroupLayoutDemo() {
         JFrame jFrame = new JFrame();
         GroupLayout groupLayout = new GroupLayout(jFrame.getContentPane());
         JButton jButton1 = new JButton("按钮1");

@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class JTabbedPaneDemo {
-    public JTabbedPaneDemo() {
+    private JTabbedPaneDemo() {
         JFrame jFrame = new JFrame();
         JTabbedPane jTabbedPane = new JTabbedPane();
         jFrame.add(jTabbedPane);

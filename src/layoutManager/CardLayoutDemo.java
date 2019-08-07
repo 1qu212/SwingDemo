@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CardLayoutDemo {
-    public CardLayoutDemo() {
+    private CardLayoutDemo() {
         JFrame jFrame = new JFrame();
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         JPanel jPanel = new JPanel();

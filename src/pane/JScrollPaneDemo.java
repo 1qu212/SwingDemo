@@ -3,7 +3,7 @@ package pane;
 import javax.swing.*;
 
 public class JScrollPaneDemo {
-    public JScrollPaneDemo() {
+    private JScrollPaneDemo() {
         JFrame jFrame = new JFrame();
         jFrame.setSize(300, 150);
         JTextArea jTextArea = new JTextArea("我们是某某某软件开发公司的骨干人员，我们会竭诚为您服务！！！");

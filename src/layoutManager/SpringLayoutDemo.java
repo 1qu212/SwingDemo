@@ -3,7 +3,7 @@ package layoutManager;
 import javax.swing.*;
 
 public class SpringLayoutDemo {
-    public SpringLayoutDemo() {
+    private SpringLayoutDemo() {
         JFrame jFrame = new JFrame();
         jFrame.setSize(300, 200);
         JLabel jLabel = new JLabel("SpringLayout");

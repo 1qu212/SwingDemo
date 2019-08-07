@@ -8,7 +8,7 @@ public class GridBagLayoutDemo {
         GridBagLayoutDemo loginView = new GridBagLayoutDemo();
     }
 
-    public GridBagLayoutDemo() {
+    private GridBagLayoutDemo() {
         JFrame jFrame = new JFrame("信息管理系统");
         jFrame.setSize(300, 150);
         JPanel jPanel = new JPanel();

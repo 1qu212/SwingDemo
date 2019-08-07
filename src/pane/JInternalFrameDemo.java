@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class JInternalFrameDemo {
-    public JInternalFrameDemo() {
+    private JInternalFrameDemo() {
         JFrame jFrame = new JFrame();
         jFrame.setSize(300, 150);
         JInternalFrame jInternalFrame = new JInternalFrame("第一个窗口", true, true, true, true);

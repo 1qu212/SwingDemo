@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class BoxLayoutDemo {
-    public BoxLayoutDemo() {
+    private BoxLayoutDemo() {
         JFrame jFrame = new JFrame();
         jFrame.setSize(300, 200);
         Box hBox1 = Box.createHorizontalBox();
