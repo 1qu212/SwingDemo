@@ -18,7 +18,7 @@ public class JSplitePaneDemo {
         JSplitPane jSplitPane = new JSplitPane();
         jSplitPane.setOneTouchExpandable(true);
         jSplitPane.setContinuousLayout(true);
-        jSplitPane.setPreferredSize(new Dimension(300,100));
+        jSplitPane.setPreferredSize(new Dimension(300, 100));
         jSplitPane.setOrientation(JSplitPane.HORIZONTAL_SPLIT);
         jSplitPane.setLeftComponent(leftJPanel);
         jSplitPane.setRightComponent(rightJPanel);
